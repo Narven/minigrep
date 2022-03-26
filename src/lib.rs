@@ -38,9 +38,9 @@ impl Config {
         println!("{}", case_sensitive);
 
         Ok(Config {
-            query: query,
-            filename: filename,
-            case_sensitive: case_sensitive,
+            query,
+            filename,
+            case_sensitive,
         })
     }
 }
